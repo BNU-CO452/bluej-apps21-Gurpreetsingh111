@@ -1,0 +1,29 @@
+ Student Gurpreetsingh = new Student("Gurpreetsingh", 22041093);
+Gurpreetsingh.print();
+ Student ID: 22041093, Gurpreetsingh
+Course CO452 = new Course("CO452", "ProgrammingConcepts");
+CO452.print();
+
+ Course CO452: ProgrammingConcepts
+
+Gurpreetsingh.enrol(CO452);
+CO452.print();
+
+ Course CO452: ProgrammingConcepts
+
+Gurpreetsingh.print();
+ Student ID: 22041093, Gurpreetsingh
+CO452.print();
+
+ Course CO452: ProgrammingConcepts
+
+Module module1 = new Module("CO452", "Programing Concepts");
+module1.printCredit();
+	  15 creditsCO452.addModule(module1);
+module1.print();
+
+ CO452: 	Programing ConceptsModuleMark moduleMa1 = new ModuleMark(module1);
+moduleMa1.setMark(60);
+moduleMa1.print();
+
+ CO452: 	Programing Concepts	  15	60
